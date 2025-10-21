@@ -1,3 +1,10 @@
+/**
+ * Ayah Abdalla
+ * Course: Java I
+ * Date: 10/21/2025
+ *
+ * Brief description of the class or program.
+ */
 public class CoffeeShop {
     // TODO 1: Change the class name to CoffeeShop
 
@@ -12,7 +19,7 @@ public class CoffeeShop {
         order2.describeOrder();
         order3.describeOrder();
 
-        // TODO 4: Print the total number of orders using
+        // TODO 4: Print the total number of orders using getTotalOrders
         CoffeeOrder.getTotalOrders();
     }
 }

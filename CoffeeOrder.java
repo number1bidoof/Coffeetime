@@ -1,10 +1,15 @@
+/**
+ * Ayah Abdalla
+ * Course: Java I
+ * Date: 10/21/2025
+ *
+ * Classes lab, building a class that tracks coffee orders
+ */
+
 public class CoffeeOrder {
     // TODO 1: Change the class name to CoffeeOrder
 
     // TODO 2: Create instance variables:
-    // - size (String)
-    // - type (String)
-    // - orderID (String, make this one private)
     String size;
     String type;
     private int orderID;
@@ -13,8 +18,6 @@ public class CoffeeOrder {
     static int totalOrders;
 
     // TODO 4: Create a no-arg constructor
-    // Set size to "medium" and type to "black"
-    // Increment totalOrders
     CoffeeOrder(){
         this.size = "medium";
         this.type = "black";
@@ -22,8 +25,6 @@ public class CoffeeOrder {
     }
 
     // TODO 5: Create a constructor that takes a size only
-    // Set type to "black" by default
-    // Increment totalOrders
     CoffeeOrder(String size){
         this.size = size;
         this.type = "black";
@@ -31,7 +32,6 @@ public class CoffeeOrder {
     }
 
     // TODO 6: Create a constructor that takes size and type
-    // Increment totalOrders
     CoffeeOrder(String size, String type){
         this.size = size;
         this.type = type;
